@@ -1,0 +1,16 @@
+.countries-component-root {
+
+  .sorted-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .column-name {
+      margin-right: 10px;
+    }
+  }
+
+  table th {
+    cursor: pointer;
+  }
+}
